@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Chakra Petch', sans-serif;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #770303;
+    background-image: url('./back1.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+main,div,footer{
+    color: #ffffff;
+    margin: 0;
+}
+
+div{
+    border: 1rem solid #770303;
+    border-style: solid ;
+}
+
+h1{
+    border: 10px solid #770303;
+    background-color: #ffffff;
+    color: #770303;
+    font-size: 3rem;
+    padding: 10px;
+    border-radius: 2rem;
+
+    margin: 0;
+}
+h2{
+    color: #ffffff;
+    border: 3px;
+    margin: 2px;
+}
+nav { 
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+nav ul{
+   color: #1d0303;
+   border: 1px none ;
+   margin: 10px;
+   display: inline-block;
+}
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+main img{
+    margin-top: 15px;
+    border: 5px solid #ffffff;
+    padding: 7px;
+    justify-content: center;
+    border-radius: 2rem;
+    width: 30%;
+
+    
+}
+
+a{   
+ text-decoration: none;
+ border: 10px none;
+ padding: 7px;
+ font: 1em sans-serif ;
+ color: #770303;
+ background-color: #ffffff;
+ border-radius: 1rem;
+
+
+}
+a:hover{
+    
+    color: #770303;
+    background-color: #000000;
+}
+
+footer{
+    border: 2px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #770303;
+
+    font-size: 1.2 rem;
+    background-image: url('./jujutsu-kaisen-shibuya-incident.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    background-position-y: 50%;
+}
+
+
+
